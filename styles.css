@@ -18,8 +18,8 @@ section {
     padding-right: 10%;
 }
 .section__1 {
-    background-color: #4285f4;
-    color: #fff;
+    background-color: rgb(199, 193, 193);
+    color: #000;
 }
 .section__1 > .section__heading {
     padding-top: 3rem;
@@ -44,7 +44,7 @@ section {
     padding-bottom: 4rem;
 }
 .section__2 {
-    background-color: #fff;
+    background-color: rgb(199, 193, 193);
     color: #000;
 }
 .section__2 > .image__container {
@@ -81,4 +81,7 @@ footer > hr {
     color: #fff;
     width: 100px;
     margin-top: 5px;
+}
+footer > .social__icons {
+    padding-top: 1rem;
 }
