@@ -5,13 +5,15 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
+    padding: 0;
+    margin: 0;
 }
 img {
     padding: 0;
     margin: 0;
 }
 section {
-    /* margin: 0; */
+    margin: 0;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -30,6 +32,10 @@ section {
     padding-bottom: 2rem;
     font-size: 16px;
     letter-spacing: 1px;
+}
+.section__1 > .section__text > a {
+    color: #fff;
+    padding-left: 2px;
 }
 .section__1 > .image__container {
     display: flex;
@@ -58,6 +64,10 @@ section {
     padding-bottom: 4rem;
     font-size: 16px;
     letter-spacing: 1px;
+}
+.section__2 > .section__text > a {
+    color: #4285f4;
+    padding-left: 2px;
 }
 footer {
     background-color: #4285f4;
